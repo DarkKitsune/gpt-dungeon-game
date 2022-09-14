@@ -1,0 +1,11 @@
+[package]
+name = "gpt-dungeon-game"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+druid = "0.7.0"
+tokio = { version = "1.21.1", features = ["full"] }
+openai-api-fork = "0.2.1"
